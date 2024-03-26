@@ -47,7 +47,7 @@ button {
     background-color: #434343;
     border: 0px solid black;
     border-right-width: 3px;
-    border-right-color: black;
+    border-right-color: #232323;
 }
 
 .right-bar {
@@ -59,7 +59,7 @@ button {
     background-color: #434343;
     border: 0px solid black;
     border-left-width: 3px;
-    border-left-color: black;
+    border-left-color: #232323;
 }
 
 .main-content {
