@@ -34,3 +34,39 @@ button {
         display: none;
     }
 }
+
+.left-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 75px;
+    background-color: #555555;
+    border: 0px solid black;
+    border-right-width: 3px;
+    border-right-color: black;
+}
+
+.right-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 75px;
+    background-color: #555555;
+    border: 0px solid black;
+    border-left-width: 3px;
+    border-left-color: black;
+}
+
+.main-content {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+img {
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    border: 2.5px solid #262f38;
+}
