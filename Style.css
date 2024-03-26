@@ -1,8 +1,9 @@
-﻿body {
+body {
     background-color: #8d8d8d;
     text-align: center;
     font-family: font;
     font-size: 22.5px;
+    cursor: url('Mousecursor.png'), auto;
 }
 
 @font-face{
@@ -20,4 +21,5 @@ button {
     background-color: #586b80;
     border-radius: 5px;
     text-align: center;
+    cursor: url('ButtonMousecursor.png'), auto;
 }
