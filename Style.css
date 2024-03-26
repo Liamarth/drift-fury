@@ -1,5 +1,7 @@
 body {
-    background-color: #8d8d8d;
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center;
     text-align: center;
     font-family: font;
     font-size: 22.5px;
@@ -41,7 +43,7 @@ button {
     bottom: 0;
     left: 0;
     width: 75px;
-    background-color: #555555;
+    background-color: #434343;
     border: 0px solid black;
     border-right-width: 3px;
     border-right-color: black;
@@ -53,7 +55,7 @@ button {
     bottom: 0;
     right: 0;
     width: 75px;
-    background-color: #555555;
+    background-color: #434343;
     border: 0px solid black;
     border-left-width: 3px;
     border-left-color: black;
@@ -69,4 +71,11 @@ img {
     width: 65px;
     height: 65px;
     border: 2.5px solid #262f38;
+}
+
+.highlight {
+    display: inline-block;
+    background-color: #656565;
+    padding: 5px 400px;
+    border-radius: 10px;
 }
