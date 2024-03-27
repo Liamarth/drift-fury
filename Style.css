@@ -25,6 +25,21 @@ button {
     text-align: center;
     cursor: url('ButtonMousecursor.png'), auto;
     border: 2.5px solid #262f38;
+    transition: all 0.3s ease;
+}
+
+.normalButton {
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: black;
+    width: 125px;
+    height: 50px;
+    font-size: 20.5px;
+    font-weight: bold;
+    border: 3px solid black;
 }
 
 @media only screen and (max-width: 440px) {
@@ -34,6 +49,22 @@ button {
 
     .right-bar {
         display: none;
+    }
+
+    button:hover {
+        width: 120px;
+        height: 45px;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: normal;
+        border: 2.5px solid #262f38;
+    }
+
+    img:hover {
+        border-radius: 10px;
+        width: 65px;
+        height: 65px;
+        border: 2.5px solid #262f38;
     }
 }
 
@@ -72,4 +103,16 @@ img {
     width: 65px;
     height: 65px;
     border: 2.5px solid #262f38;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    border: 3px solid black;
+}
+
+h1 {
+    margin-bottom: -20px;
 }

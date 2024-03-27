@@ -9,6 +9,7 @@ function downloadFile(file) {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    alert("Files are downloading, please wait...");
 }
 
 window.onload = function () {
@@ -38,15 +39,13 @@ function showPage(pageId) {
         btnPage2.style.backgroundColor = "#586b80";
         btnPage3.style.backgroundColor = "#586b80";
 
-        if (currentPageIndex === 1) {
-            btnPage1.style.backgroundColor = "#435363";
-        } else if (currentPageIndex === 2) {
-            btnPage2.style.backgroundColor = "#435363";
-        } else if (currentPageIndex === 3) {
-            btnPage3.style.backgroundColor = "#435363";
+        var currentPageButton = document.getElementById("btnPage" + currentPageIndex);
+        if (currentPageButton) {
+            currentPageButton.style.backgroundColor = "#435363";
         }
     }
 }
+
 
 function getCurrentPageIndex() {
     var pages = document.getElementsByClassName("page");
