@@ -70,10 +70,6 @@ button:hover {
     hr{
         display: none;
     }
-
-    .mainText:hover {
-        font-size: 45px;
-    }
 }
 
 
@@ -131,13 +127,4 @@ hr {
     color: #000000;
     border-color: black;
     background-color: black;
-}
-
-.mainText {
-    font-size: 45px;
-    transition: all 0.3s ease;
-}
-
-.mainText:hover {
-    font-size: 50px;
 }
