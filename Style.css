@@ -66,6 +66,14 @@ button:hover {
         height: 65px;
         border: 2.5px solid #262f38;
     }
+
+    hr{
+        display: none;
+    }
+
+    .mainText:hover {
+        font-size: 45px;
+    }
 }
 
 
@@ -115,4 +123,21 @@ img:hover {
 
 h1 {
     margin-bottom: -20.001px;
+}
+
+hr {
+    width: 700px;
+    height: 1px;
+    color: #000000;
+    border-color: black;
+    background-color: black;
+}
+
+.mainText {
+    font-size: 45px;
+    transition: all 0.3s ease;
+}
+
+.mainText:hover {
+    font-size: 50px;
 }
