@@ -129,11 +129,6 @@ hr {
     background-color: black;
 }
 
-.contact-text{
-    margin-top: 300px;
-    margin-bottom: -10px;
-}
-
 .contact-container{
     height: 100px;
     display:flex;
