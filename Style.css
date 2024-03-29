@@ -128,3 +128,45 @@ hr {
     border-color: black;
     background-color: black;
 }
+
+.contact-text{
+    margin-top: 300px;
+    margin-bottom: -10px;
+}
+
+.contact-container{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: 2.5px solid #262f38;
+    border-radius: 10px;
+    outline: none;
+    background-color: #586b80;
+    text-align: left;
+    font-family: font;
+}
+
+.contact-inputs::placeholder{
+    color: #3e3e3e;
+    font-family: font;
+}
+
+.contact textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 10px;
+    font-family: font;
+}
